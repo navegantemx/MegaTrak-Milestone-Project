@@ -14,6 +14,10 @@
 </head>
 <body>
     
+    <!-----------------------Web design idea taken from YouTube channel "Easy Tutorials" ------------>
+    
+    <!--------- "Navbar" feature was found in https://getbootstrap.com/docs/4.1/components/navbar --------->
+    
     <!-----------------------Navigation Bar------------>
     
     <section id="nav-bar">
@@ -45,6 +49,8 @@
             </div>
         </nav>
     </section>
+    
+    <!--------- ""Carousel" feature was found in Bootstrap 4.1 https://getbootstrap.com/docs/4.1/components/carousel --------->
     
     <!-----------------------Slider------------>
     
@@ -231,34 +237,34 @@
                 <div class="col-md-6">
                     <form class="contact-form">
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="# of Sites to be Fitted with MegaTrak:">
+                            <input type="number" class="form-control" placeholder="# of Sites to be Fitted with MegaTrak:" required>
                         </div>
                         <div class="form-group">
-                             <input type="number" class="form-control" placeholder="# of Fuel Hoses:">
+                             <input type="number" class="form-control" placeholder="# of Fuel Hoses:" required>
                         </div>
                         <div class="form-group">
-                             <input type="number" class="form-control" placeholder="# of Vehicles/Equipment in Fleet:">
+                             <input type="number" class="form-control" placeholder="# of Vehicles/Equipment in Fleet:" required>
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Lube Reels? # of Reels:">
+                            <input type="number" class="form-control" placeholder="Lube Reels? # of Reels:" required>
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Truck Mounts: # of Fluids:">
+                            <input type="number" class="form-control" placeholder="Truck Mounts: # of Fluids:" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name:">
+                            <input type="text" class="form-control" placeholder="Your Name:" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Organization:">
+                            <input type="text" class="form-control" placeholder="Organization:" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Title:">
+                            <input type="text" class="form-control" placeholder="Title:" required>
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Phone#:">
+                            <input type="number" class="form-control" placeholder="Phone#:" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email Address:">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" rows="4" placeholder="Other Information"></textarea>
@@ -291,7 +297,9 @@
     
     <!-----------------------Footer End------------>
     
-    <script src="assets/js/smooth-scroll.js"></script>
+    <!--------- ""smooth scroll JavaScript function from https://github.com/cferdinandi/smooth-scroll --------->
+    
+    <script src="libraries/smooth-scroll.js"></script>
     <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
 </body>
 </html>
