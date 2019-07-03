@@ -115,7 +115,7 @@
 
 #products 
 {
-    background-image: url(../images/news1.jpg);
+    background-image: url(../images/products1.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
@@ -280,76 +280,6 @@ h1::after
     padding-bottom: 50px;
 }
 
-#news .row
-{
-    margin-top: 30px;
-}
-
-.col-md-4
-{
-    margin: 40px auto;
-}
-
-.profile
-{
-    padding: 70px 10px 10px;
-    background-color: #efefef;
-}
-
-.user
-{
-    width: 55%;
-    height: auto;
-}
-
-.profile img
-
-{
-    top: -60px;
-    position: absolute;
-    left: calc(50% - 60px);
-    border: 10px solid #fff;
-}
-
-.profile h3
-{
-    font-size: 20px;
-    margin-top: 15px;
-    color: #007bff;
-}
-
-#news span
-{
-    font-size: 12px;
-    color: #333;
-}
-
-blockquote
-{
-    font-size: 16px;
-    line-height: 30px;
-}
-
-blockquote::before
-{
-    content: '\201C';
-    font-size: 50px;
-    color: #007bff;
-    position: relative;
-    line-height:20px;
-    bottom: -15px;
-    right: 5px;
-}
-blockquote::after
-{
-    content: '\201D';
-    font-size: 50px;
-    color: #007bff;
-    position: relative;
-    line-height:10px;
-    bottom: -15px;
-    right: 5px;
-}
 
 /* -------------------------------------Contact */
 
