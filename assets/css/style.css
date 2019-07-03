@@ -54,14 +54,15 @@
 
 /* -------------------------------------Slider */
 
-#slider
+.img-fuid
+
 {
-    width: 100%;
+    background: cover;
 }
 
 .carousel-caption
 {
-    top: 50%;
+    top: 60%;
     transform: translateY (-50%);
     bottom: initial!important;
 }
@@ -114,7 +115,7 @@
 
 #products 
 {
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));url("../../media/examples/lizard.png");
+    background-image: url(../images/news1.jpg);
     background-size: cover;
     background-position: center;
     color: #efefef !important;
