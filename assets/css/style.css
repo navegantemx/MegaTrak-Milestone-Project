@@ -73,6 +73,7 @@
     font-size: 42px;
 }
 
+
 /* -------------------------------------Solutions */
 
 #solutions
@@ -321,6 +322,13 @@ h1::after
     background: #333;
     color: #fff;
     padding: 12px;
+}
+
+/* ------------------------------------- Slider title----- */
+
+@media screen and (min-width: 480px) {
+  h5 {font-size: 2.5em;
+  }
 }
 
 
